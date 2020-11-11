@@ -1,0 +1,14 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  width: 500px;
+  flex-wrap: wrap;
+}
+
+.content-mini {
+  background: rgba(221, 160, 221, 0.671);
+  height: 100px;
+  width: 200px;
+  border: 3px solid purple;
+}
