@@ -1,0 +1,21 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  flex-grow: 1;
+  background: rebeccapurple;
+  height: 100px;
+}
+
+main {
+  background: green;
+  height: 1200px;
+  width: 100%;
+}
+
+footer {
+  background: yellow;
+  height: 200px;
+}
