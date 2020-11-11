@@ -1,0 +1,42 @@
+.section-one,
+.section-two,
+.article-one,
+.article-two,
+.article-three,
+.article-four {
+  border: 2px solid purple;
+}
+
+.section-Principal {
+  order: 1;
+}
+
+.article-one {
+  order: 0;
+}
+
+img {
+  height: 50%;
+  width: 50%;
+}
+
+.title-one {
+  color: brown;
+}
+
+.section-one,
+.section-two {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+}
