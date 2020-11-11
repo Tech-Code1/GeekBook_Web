@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+.box1 {
+  background: red;
+  width: 50vw;
+  height: 100vh;
+}
+
+.box2 {
+  background: yellow;
+  width: 10vw;
+  height: 10vh;
+}
+
+.box3 {
+  background: blue;
+  width: 100vw;
+  height: 80vh;
+}
