@@ -1,0 +1,69 @@
+* {
+  font-family: sans-serif;
+}
+
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 800px;
+}
+
+p {
+  line-height: 24px;
+}
+
+a {
+  cursor: help;
+}
+
+li {
+  margin-top: 16px;
+}
+
+.tooltip {
+  font-weight: normal;
+  position: relative;
+  color: rgb(26, 26, 128);
+  text-decoration: none;
+}
+
+.tooltip:hover {
+  text-decoration: underline;
+}
+
+.tooltip-box {
+  display: none;
+  position: absolute;
+  background: black;
+  line-height: 20px;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  left: -92px;
+  bottom: 30px;
+  width: 200px;
+}
+
+.tooltip:hover .tootltip-box {
+  display: inline-block;
+}
+
+.tooltip-box::after {
+  content: "";
+  display: block;
+  border-top: 15px solid black;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  position: absolute;
+  left: 95px;
+}
