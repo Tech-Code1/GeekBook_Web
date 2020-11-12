@@ -1,0 +1,30 @@
+body {
+  margin-top: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content-txt {
+  margin-top: 16px;
+  width: 700px;
+  line-height: 30px;
+  font-size: 24px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+footer {
+  display: flex;
+  padding: 0 16px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
+  height: 100px;
+  background: yellow;
+  font-size: 24px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  position: fixed;
+  bottom: 0;
+}
