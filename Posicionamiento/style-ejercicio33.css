@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.div1 {
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  background: yellow;
+  padding: 40px;
+  border: 2px solid black;
+}
+
+.div2 {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  background: green;
+  padding: 75px;
+}
+
+.div3 {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  background: blue;
+  border: 20px dashed black;
+}
