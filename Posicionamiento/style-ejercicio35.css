@@ -1,0 +1,19 @@
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 86vh;
+  width: 86%;
+}
+
+h1 {
+  font-size: 46px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  max-width: 600px;
+}
