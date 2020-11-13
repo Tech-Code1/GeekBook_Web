@@ -1,0 +1,15 @@
+body {
+  background-color: red;
+}
+
+@media all and (min-width: 481px) {
+  body {
+    background: yellow;
+  }
+}
+
+@media all and (min-width: 769px) {
+  body {
+    background: green;
+  }
+}
