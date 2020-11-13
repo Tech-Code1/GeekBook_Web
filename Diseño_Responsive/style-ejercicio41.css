@@ -1,0 +1,27 @@
+html {
+  font-size: 1rem;
+}
+.smiley {
+  width: 6.25rem;
+  height: 6.25rem;
+  line-height: 6.25rem;
+  text-align: center;
+  font-family: "courier new";
+  font-weight: bold;
+  font-size: 3.125rem;
+  color: #424242;
+  background: #ffcc00;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+/* ¿Qué tamaño de fuente tengo que poner para que mi cara mida 50x50?
+
+R-----/tendria que tener una altura de 3.125rem y un ancho de 3.125rem */
+
+/* ¿Qué tamaño de fuente tengo que poner para que mi cara mida 200x200?
+
+R-----/tendria que tener una altura de 12.5rem y un ancho de 12.5rem */
