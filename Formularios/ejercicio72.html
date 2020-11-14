@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Gmail</title>
+</head>
+<body>
+    <form action="">
+
+        <label for="name"> Nombre
+            <input type="text" id="name" placeholder="Ingrese su Nombre" required>
+        </label>
+
+        <label for="apellido">Apellido
+            <input type="text" placeholder="Ingrese su Apellido" id="apellido" required>
+        </label>
+
+
+        <label for="correo">Nombre de usuario
+            <input type="text" placeholder="Ingrese su Correo" id="correo" required>
+        </label>
+
+
+        <label for="contraseña">Contraseña
+            <input type="password" placeholder="Ingrese su Contraseña" id="contraseña" required>
+        </label>
+
+
+        <label for="password-verify">Repita su Contraseña
+            <input type="text" placeholder="Ingrese de nuevo su Contraseña" id="password-verify" required>
+        </label>
+
+
+        <label for="day">Día
+            <input type="number" id="day" required>
+        </label>
+
+
+        <select for="month">Mes
+            <option value="" selected disabled>Mes</option>
+            <option value="">Enero</option>
+            <option value="">Febrero</option>
+            <option value="">Marzo</option>
+            <option value="">Abril</option>
+            <option value="">Mayo</option>
+            <option value="">Junio</option>
+            <option value="">Julio</option>
+            <option value="">Agosto</option>
+            <option value="">Septiembre</option>
+            <option value="">Octubre</option>
+            <option value="">Noviembre</option>
+            <option value="">Diciembre</option>
+        </select>
+
+
+        <label for="year">Año
+            <input type="number" id="year" required>
+        </label>
+
+        <select name="" id=""> Sexo
+            <option value="" selected disabled>Seleccionar género</option>
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+        </select>
+
+
+        <label for="telefono">Teléfono
+            <input type="number" placeholder="Ingrese su Teléfono" id="telefono" required pattern="{1,11}">
+        </label>
+
+        <label for="correo">Tu dirección de correo electrónico actual
+            <input type="email" placeholder="Ingrese su Correo" id="correo" required>
+        </label>
+
+
+        <label for="pais">Ubicación
+            <input type="text" placeholder="Ingrese su pais" id="pais" required value="España">
+        </label>
+
+
+        <input type="submit" placeholder="" id="send" value="Siguiente paso">
+
+
+    </form>
+</body>
+</html>
