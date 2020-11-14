@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Facebook</title>
+</head>
+<body>
+    <form action="">
+
+        <label for="name"> Nombre
+            <input type="text" id="name" placeholder="Ingrese su Nombre" required>
+        </label>
+
+        <label for="apellido">Apellido
+            <input type="text" placeholder="Ingrese su Apellido" id="apellido">
+        </label>
+    
+
+        <label for="correo">Correo
+            <input type="text" placeholder="Ingrese su Correo" id="correo" required>
+        </label>
+
+
+        <label for="correo-verify">Repita su Correo
+            <input type="text" placeholder="Ingrese de nuevo su Correo" id="correo-verify" required>
+        </label>
+        
+
+        <label for="contraseña">Contraseña
+            <input type="password" placeholder="Ingrese su Contraseña" id="contraseña" required>
+        </label>
+
+
+        <label for="contraseña">Cumpleaños
+            <input type="datetime" placeholder="Ingrese su Contraseña" id="contraseña" required>
+        </label>
+
+
+        <label for="altura">Altura
+            <input type="number" placeholder="Ingrese su Contraseña" id="altura" required min="150Cm" max="250 Cm">
+        </label>
+
+
+        <label for="comentario">Comentarios
+        <textarea name="comments" rows="8" cols="80" required id="comentario"></textarea>
+    </label>
+
+
+        <input type="radio" value="Mujer"> Mujer
+        <input type="radio" value="Hombre"> Hombre
+<p>
+<input type="checkbox" required> Aceptas los términos y condiciones de Facebook</p>
+
+        <input type="submit" placeholder="" id="send" value="Enviar">
+        
+
+
+    </form>
+</body>
+</html>
