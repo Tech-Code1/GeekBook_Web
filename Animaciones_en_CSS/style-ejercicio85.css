@@ -1,0 +1,27 @@
+html {
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(16, 190, 190);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 90px;
+  font-weight: bold;
+  position: relative;
+  bottom: 900px;
+}
+
+html:hover h1 {
+  bottom: 0;
+  transition: ease all 1s;
+}
