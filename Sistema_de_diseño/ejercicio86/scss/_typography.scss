@@ -1,0 +1,25 @@
+* {
+  /* typography size*/
+  --fontSizeOne: 35px;
+  --fontSizeTwo: 29px;
+  --fontSizeThree: 24px;
+  --fontSizeFour: 20px;
+  --fontSizeFive: 16px;
+  --fontSizeFive: 14px;
+  --fontSizeFive: 12px;
+  --fontSizeFive: 11px;
+
+  /* colors */
+  --pacificBridge: #0052cc;
+  --squidInk: #172b4d;
+  --noDoctor: #ffffff;
+  --poppySuprise: #ff5630;
+  --goldenState: #ffab00;
+  --finePine: #36b37e;
+  --tamarama: #00b8d9;
+  --daJuice: #6554c0;
+}
+
+body {
+  font-family: "Georgia", "times", serif;
+}
